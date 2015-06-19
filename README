@@ -1,0 +1,11 @@
+This is a sample project for using NRF8001 module from Adafruit. See the example project, but basically:
+
+Add NRF8001.h/m and NRF8001Delegate.h/m
+
+Add [NRF8001 sharedInstance] to AppDelegate.m
+
+Make your ViewController a delegate for NRF8001Delegate
+
+Implement the delegate fns
+
+Receive and send data to the module - Use the BLE Echo example from adafruit as a starting point.
